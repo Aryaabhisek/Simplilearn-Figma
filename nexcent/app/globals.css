@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand palette (sampled from the Nexcent design) */
+  --color-brand-50: #eef8ec;
+  --color-brand-100: #dcf1d8;
+  --color-brand-400: #79c86b;
+  --color-brand-500: #57a64a;
+  --color-brand-600: #499144;
+  --color-brand-700: #3a7538;
+
+  --color-ink-900: #1e2433;
+  --color-ink-800: #262d3d;
+  --color-ink-700: #3f4757;
+
+  --color-heading: #4b5259;
+  --color-body: #6b7280;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f5fa;
+  --color-surface-alt: #eef0f6;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}

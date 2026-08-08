@@ -1,0 +1,11 @@
+// content/site.json (excerpt)
+"hero": {
+  "titleLine1": "Lessons and insights",
+  "titleLine2Highlight": "from 8 years",
+  "subtitle": "Where to grow your business as a photographer: site or social media?",
+  "ctaLabel": "Register",
+  "ctaHref": "#register",
+  "image": { "src": "hero-workspace", "alt": "...", "width": 640, "height": 520 },
+  "slideCount": 3,
+  "activeSlideIndex": 0
+}
