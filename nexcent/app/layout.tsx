@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
-// Requires normal internet access at build time (works locally / on Vercel).
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -11,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nexcent — Membership management for communities",
+  title: "Nexcent",
   description:
     "Manage your entire community in a single system. Nexcent automates membership renewals, payments, and events.",
 };

@@ -10,8 +10,7 @@ import { Testimonial } from "@/components/sections/Testimonial";
 import { Blog } from "@/components/sections/Blog";
 import { CtaBand } from "@/components/sections/CtaBand";
 
-// Server component — content is read at request/build time and
-// passed down as props. No section ever imports the JSON itself.
+
 export default function HomePage() {
   const content = getSiteContent();
 

@@ -1,6 +1,3 @@
-// Central content contract for the whole page.
-// Every section component receives one of these shapes as props —
-// no component ever hardcodes copy, links, or asset paths.
 
 export interface NavLink {
   label: string;

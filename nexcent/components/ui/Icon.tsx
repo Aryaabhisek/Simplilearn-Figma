@@ -11,9 +11,7 @@ import {
   type LucideProps,
 } from "lucide-react";
 
-// lucide-react no longer ships trademarked brand marks (Instagram, Twitter,
-// Dribbble, YouTube), so social glyphs are hand-drawn, minimal outline icons
-// kept in the same registry/contract as the lucide icons below.
+
 function Instagram(props: LucideProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={props.strokeWidth ?? 1.75} className={props.className}>
