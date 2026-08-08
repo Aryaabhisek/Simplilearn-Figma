@@ -1,11 +1,177 @@
-// content/site.json (excerpt)
-"hero": {
-  "titleLine1": "Lessons and insights",
-  "titleLine2Highlight": "from 8 years",
-  "subtitle": "Where to grow your business as a photographer: site or social media?",
-  "ctaLabel": "Register",
-  "ctaHref": "#register",
-  "image": { "src": "hero-workspace", "alt": "...", "width": 640, "height": 520 },
-  "slideCount": 3,
-  "activeSlideIndex": 0
+{
+  "navbar": {
+    "brand": { "name": "Nexcent", "logo": "/images/logo.svg", "href": "/" },
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Service", "href": "#service" },
+      { "label": "Feature", "href": "#feature" },
+      { "label": "Product", "href": "#product" },
+      { "label": "Testimonial", "href": "#testimonial" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "loginLabel": "Login",
+    "loginHref": "#login",
+    "signupLabel": "Sign up",
+    "signupHref": "#signup"
+  },
+  "hero": {
+    "titleLine1": "Lessons and insights",
+    "titleLine2Highlight": "from 8 years",
+    "subtitle": "Where to grow your business as a photographer: site or social media?",
+    "ctaLabel": "Register",
+    "ctaHref": "#register",
+    "image": { "src": "hero-workspace", "alt": "Illustration of a developer working with a desktop showing code and workflow diagrams", "width": 640, "height": 520 },
+    "slideCount": 3,
+    "activeSlideIndex": 0
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "We have been working with some Fortune 500+ clients",
+    "logos": [
+      { "name": "Duolane", "src": "logo-duolane", "width": 56, "height": 56 },
+      { "name": "Umbra", "src": "logo-umbra", "width": 56, "height": 56 },
+      { "name": "Boxcar", "src": "logo-boxcar", "width": 56, "height": 56 },
+      { "name": "Logo Ipsum", "src": "logo-ipsum", "width": 90, "height": 56 },
+      { "name": "Fingerprint", "src": "logo-fingerprint", "width": 56, "height": 56 },
+      { "name": "Loopwave", "src": "logo-loopwave", "width": 70, "height": 56 },
+      { "name": "Boxcar Alt", "src": "logo-boxcar", "width": 56, "height": 56 }
+    ]
+  },
+  "audience": {
+    "heading": "Manage your entire community in a single system",
+    "subheading": "Who is Nextcent suitable for?",
+    "cards": [
+      {
+        "icon": "users",
+        "title": "Membership Organisations",
+        "description": "Our membership management software provides full automation of membership renewals and payments"
+      },
+      {
+        "icon": "building",
+        "title": "National Associations",
+        "description": "Our membership management software provides full automation of membership renewals and payments"
+      },
+      {
+        "icon": "handshake",
+        "title": "Clubs And Groups",
+        "description": "Our membership management software provides full automation of membership renewals and payments"
+      }
+    ]
+  },
+  "featureSplits": [
+    {
+      "id": "pixelgrade",
+      "image": { "src": "team-login", "alt": "Illustration of two colleagues setting up an account login screen", "width": 480, "height": 380 },
+      "title": "The unseen of spending three years at Pixelgrade",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.",
+      "ctaLabel": "Learn More",
+      "ctaHref": "#learn-more-1",
+      "imagePosition": "left",
+      "background": "white"
+    },
+    {
+      "id": "footer-design",
+      "image": { "src": "signup-lock", "alt": "Illustration of a person signing up on a mobile app secured by a padlock", "width": 480, "height": 380 },
+      "title": "How to design your site footer like we did",
+      "paragraph": "Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.",
+      "ctaLabel": "Learn More",
+      "ctaHref": "#learn-more-2",
+      "imagePosition": "left",
+      "background": "white"
+    }
+  ],
+  "stats": {
+    "headingLine1": "Helping a local",
+    "headingLine2Highlight": "business reinvent itself",
+    "subheading": "We reached here with our hard work and dedication",
+    "stats": [
+      { "icon": "users-group", "value": "2,245,341", "label": "Members" },
+      { "icon": "handshake", "value": "46,328", "label": "Clubs" },
+      { "icon": "tap", "value": "828,867", "label": "Event Bookings" },
+      { "icon": "card", "value": "1,926,436", "label": "Payments" }
+    ]
+  },
+  "testimonial": {
+    "image": { "src": "testimonial-brand", "alt": "Client brand mark displayed on a dark tile", "width": 400, "height": 400 },
+    "quote": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.",
+    "authorName": "Tim Smith",
+    "authorRole": "British Dragon Boat Racing Association",
+    "logos": [
+      { "name": "Duolane", "src": "logo-duolane", "width": 40, "height": 40 },
+      { "name": "Umbra", "src": "logo-umbra", "width": 40, "height": 40 },
+      { "name": "Boxcar", "src": "logo-boxcar", "width": 40, "height": 40 },
+      { "name": "Logo Ipsum", "src": "logo-ipsum", "width": 72, "height": 40 },
+      { "name": "Fingerprint", "src": "logo-fingerprint", "width": 40, "height": 40 },
+      { "name": "Loopwave", "src": "logo-loopwave", "width": 56, "height": 40 }
+    ],
+    "meetAllLabel": "Meet all customers",
+    "meetAllHref": "#customers"
+  },
+  "blog": {
+    "heading": "Caring is the new marketing",
+    "subheading": "The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.",
+    "posts": [
+      {
+        "image": { "src": "blog-reading", "alt": "Person reading on a laptop beside a window", "width": 430, "height": 340 },
+        "title": "Creating Streamlined Safeguarding Processes with OneRen",
+        "readMoreLabel": "Readmore",
+        "href": "#post-1"
+      },
+      {
+        "image": { "src": "blog-desk", "alt": "Laptop with charts on a desk beside a coffee cup", "width": 430, "height": 340 },
+        "title": "What are your safeguarding responsibilities and how can you manage them?",
+        "readMoreLabel": "Readmore",
+        "href": "#post-2"
+      },
+      {
+        "image": { "src": "blog-typing", "alt": "Hands typing on a laptop next to a notebook and plant", "width": 430, "height": 340 },
+        "title": "Revamping the Membership Model with Triathlon Australia",
+        "readMoreLabel": "Readmore",
+        "href": "#post-3"
+      }
+    ]
+  },
+  "ctaBand": {
+    "heading": "Pellentesque suscipit fringilla libero eu.",
+    "ctaLabel": "Get a Demo",
+    "ctaHref": "#demo"
+  },
+  "footer": {
+    "brand": { "name": "Nexcent", "logo": "/images/logo-white.svg", "href": "/" },
+    "copyright": "Copyright \u00a9 2020 Nexcent ltd.",
+    "tagline": "All rights reserved",
+    "social": [
+      { "platform": "Instagram", "href": "#", "icon": "instagram" },
+      { "platform": "Dribbble", "href": "#", "icon": "dribbble" },
+      { "platform": "Twitter", "href": "#", "icon": "twitter" },
+      { "platform": "YouTube", "href": "#", "icon": "youtube" }
+    ],
+    "linkGroups": [
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About us", "href": "#about" },
+          { "label": "Blog", "href": "#blog" },
+          { "label": "Contact us", "href": "#contact" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Testimonials", "href": "#testimonial" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "label": "Help center", "href": "#help" },
+          { "label": "Terms of service", "href": "#terms" },
+          { "label": "Legal", "href": "#legal" },
+          { "label": "Privacy policy", "href": "#privacy" },
+          { "label": "Status", "href": "#status" }
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Stay up to date",
+      "placeholder": "Your email address",
+      "submitLabel": "Subscribe"
+    }
+  }
 }
